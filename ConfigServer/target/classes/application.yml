@@ -1,0 +1,11 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: CONFIG_SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Yamuna-22/HotelReviewSystem_Microservices
+          clone-on-start: true
